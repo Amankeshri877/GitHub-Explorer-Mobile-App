@@ -84,6 +84,9 @@ To learn more about React Native, take a look at the following resources:
 -apply change in android/app/build.gradle project.ext.vectoricons = [
 iconFontNames: [ "MaterialIcons.ttf","FontAwesome.ttf","Ionicons.ttf" ] // Add other fonts as needed
 ]
-apply from: "../../node_modules/react-native-vector-icons/fonts.gradle"
-/_ Autolinking _/
+apply from: "../../node*modules/react-native-vector-icons/fonts.gradle"
+/* Autolinking \_/
 autolinkLibrariesWithApp()
+
+- create env file and your personal access token from github
+  -put in token in search screen
